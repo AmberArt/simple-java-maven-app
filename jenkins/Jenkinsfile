@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Complete') {
             steps {
-                sh 'jenkins build is complete'
+                echo 'jenkins build is complete'
             }
         }
     }
